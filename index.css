@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+}
+
+.contato {
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.contato h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style:  normal;
+    font-size: 3rem;
+
+}
+
+#contatos p {
+    color: white;
+}
+
+#telefone_contatos {
+    margin-left: 250px;
+}
+
+#email_contatos {
+    margin-left: 50px;
+}
+
+#container_sociais {
+    width: 100px;
+    height: 100%;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_sociais img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#logotipo_menu {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+#img_logotipo {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+#botoes_menu {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes {
+    width: 180px;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_home, #btn_servicos, #btn_contato {
+    background-color: rgb(18, 126, 189);
+}
+
+#btn_empresa, #btn_portifolio {
+    background-color: rgb(3, 44, 177);
+}
+
+#img_home {
+    width: 100%;
+    height: 500px;
+}
+
+#texto_img_home {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#texto_img_home p {
+    margin: 0;
+    font-size: 30px;
+
+}
+
+.welcome {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.texto_welcome {
+    width: 700px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2% 0 2%;
+}
+
+ #texto_welcome1 {
+    background-color: #8a3e00;
+ }
+
+ #texto_welcome2 {
+    background-color: #7b7707;
+ }
+
+.texto_welcome h1 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.texto_welcome p {
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.img_welcome {
+    width: 700px;
+    height: 350px;
+    margin: 0 2% 0 2%;
+}
+
+.img_welcome img {
+    width: 100%;
+    height: 100%;
+}
+
+#divona {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.divinha {
+    width: 480px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+#divinha1 {
+    background-color: #0BCCDE; 
+}
+
+.divinha img {
+    width: 160px;
+    height: 120px;
+    margin-top: 60px;
+}
+
+.divinha h1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+.divinha p {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    margin: 0 10% 0 10%;
+    font-size: 1.2rem;
+}
+
+#divinha2 {
+    background-color: #19AFFF;
+    /*MARGEM ->    TOP RIGTH BOTTOM LEFT    */
+    margin: 0    30px     0     30px;
+}
+
+#divinha3 {
+    background-color: #0BD4AD;
+}
+
+.borda_divinha {
+    width: 90%;
+    height: 90%;
+    border: solid 2px white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.divinha-embaixo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+}
+
+.portfolio-baixo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #007ec1;
+    padding: 2% 0;
+}
+
+.portfolio-imagem {
+    margin: 0 2% 2% 2%;
+}
+
+
+.portfolio-imagem img{
+    width: auto;
+    height: 18rem;  
+
+    max-width: 500px;
+
+}
+.full-backround {
+    background-image: url(img/index-02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+#portfólio-baixo {
+    height: 300px;
+    background-color: #007ec1;
+}
+
+.contato{
+    color: white;
+    padding: 20px 0;
+    background-color: #0d557a;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px
+}
+
+input[type="text"], input [type="email"], textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+    width: 100%;
+    height: ;
+    color: yellow;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+textarea::placeholder, input::placeholder{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.textarea-mensagem {
+    height: 192px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.mapa{
+    margin-bottom: 3%;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
